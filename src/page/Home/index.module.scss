@@ -1,0 +1,21 @@
+.productItem{
+    height: 228px;
+    width:50%;
+    background-color: white;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    &:nth-of-type(odd) {
+        border-right: 1px solid #ccc;
+    }
+}
+.productCover{
+    height: 172px;
+    width: 100%;
+}
+.productInfo{
+    padding: 0 10px;
+}
+.content{
+    padding-bottom: 40px;
+}

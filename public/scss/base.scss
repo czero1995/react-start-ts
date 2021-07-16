@@ -1,0 +1,38 @@
+@import "./variable.scss";
+
+@mixin flex() {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  @include flex();
+}
+.flex-center {
+  @include flex;
+  justify-content: center;
+}
+
+.flex-around {
+  @include flex;
+  justify-content: space-around;
+}
+
+.flex-space {
+  @include flex;
+  justify-content: space-between;
+}
+
+.flex-align {
+  @include flex;
+  align-items: flex-start;
+}
+
+.flex-align-end {
+  @include flex;
+  align-items: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
